@@ -1,0 +1,10 @@
+data/
+outputs/
+.venv*/
+__pycache__/
+*.pyc
+references/*.ipynb
+*.parquet
+*.csv
+*.so
+*.bin

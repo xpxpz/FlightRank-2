@@ -1,0 +1,12 @@
+{
+  "eligible_sessions": 8965,
+  "baseline_hitrate_at_3": 0.5599553820412716,
+  "candidate_hitrate_at_3": 0.5633017289459007,
+  "delta_candidate_minus_baseline": 0.0033463469046291134,
+  "bootstrap_samples": 2000,
+  "seed": 42,
+  "paired_bootstrap_95_percent_interval": [
+    -0.006695482431678751,
+    0.01271611823759063
+  ]
+}

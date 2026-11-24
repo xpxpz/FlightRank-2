@@ -1,0 +1,50 @@
+{
+  "signature": {
+    "model": "NB0036",
+    "duration_mode": "vectorized",
+    "compact_aggregates": true,
+    "aggregate_mode": "original",
+    "test_aggregates": "requested",
+    "split_file": null,
+    "ablation": "none",
+    "rounds": 3500,
+    "params": {
+      "objective": "rank:pairwise",
+      "eval_metric": "ndcg@3",
+      "max_depth": 10,
+      "min_child_weight": 10,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "lambda": 10.0,
+      "learning_rate": 0.05,
+      "seed": 42,
+      "nthread": 12,
+      "lambdarank_num_pair_per_sample": 8,
+      "tree_method": "hist"
+    },
+    "provenance": {
+      "inputs": {
+        "train": {
+          "sha256": "72048e1b559709ec8436d6f3806eb1ccbde1e9b9ea530bddc664d91b6c295e63",
+          "bytes": 394945463
+        },
+        "test": {
+          "sha256": "75d5063213554064dc9f53af6a5ec32e004808faad19e38efd33ebc2a4a50fbd",
+          "bytes": 144128779
+        }
+      },
+      "versions": {
+        "python": "3.12.3",
+        "numpy": "2.4.6",
+        "pandas": "3.0.6",
+        "polars": "1.44.2",
+        "scikit_learn": "1.9.1",
+        "xgboost": "2.1.4"
+      }
+    }
+  },
+  "fold": 2,
+  "hitrate_at_3": 0.6395582329317269,
+  "seconds": 9098.487194513902,
+  "process_peak_rss_bytes": 122811576320
+}
